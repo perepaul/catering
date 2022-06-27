@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\ContactController;
+use App\Http\Controllers\Admin\PasswordController;
 use App\Http\Controllers\ContactController as ControllersContactController;
 use App\Http\Controllers\IndexController;
 use Illuminate\Support\Facades\Route;
@@ -23,12 +24,11 @@ Route::as('front.')->group(function () {
 
 Route::middleware('auth')->prefix('admin')->name('admin.')->group(function () {
     Route::view('', 'admin.dashboard')->name('dashboard');
-    // Route::prefix('contacts')
-    //     ->name('contacts.')
-    //     ->controller(ContactController::class)
-    //     ->group(function () {
-    //         Route::get('', 'index')->name('index');
-    //     Route::get('view/', 'index')->name('index');
-    //     });
+    Route::controller(PasswordController::class)
+        ->prefix('password')->as('password.')
+        ->group(function () {
+            Route::get('', 'index')->name('index');
+            Route::post('change', 'change')->name('change');
+        });
     Route::resource('contacts', ContactController::class)->only(['index', 'show', 'destroy']);
 });
