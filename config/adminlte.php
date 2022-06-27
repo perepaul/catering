@@ -277,11 +277,11 @@ return [
             'submenu' => [
                 [
                     'text' => 'Icon & Favicon',
-                    'url'  => '#',
+                    'url'  => 'admin/settings/icons',
                 ],
                 [
                     'text' => 'Contact Details',
-                    'url'  => '#',
+                    'url'  => 'admin/settings/contact',
                 ],
                 // [
                 //     'text'    => 'level_one',

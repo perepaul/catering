@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\ContactController;
 use App\Http\Controllers\Admin\PasswordController;
+use App\Http\Controllers\Admin\SettingController;
 use App\Http\Controllers\ContactController as ControllersContactController;
 use App\Http\Controllers\IndexController;
 use Illuminate\Support\Facades\Route;
@@ -30,5 +31,16 @@ Route::middleware('auth')->prefix('admin')->name('admin.')->group(function () {
             Route::get('', 'index')->name('index');
             Route::post('change', 'change')->name('change');
         });
+
+    Route::controller(SettingController::class)
+        ->prefix('settings')->as('settings.')
+        ->group(function () {
+            Route::get('icons', 'iconsPage')->name('icons');
+            Route::post('icons', 'updateIcons');
+
+            Route::get('contact', 'contactPage')->name('contact');
+            Route::post('contact', 'updateContact');
+        });
+
     Route::resource('contacts', ContactController::class)->only(['index', 'show', 'destroy']);
 });

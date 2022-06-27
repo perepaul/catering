@@ -6,11 +6,14 @@ $.ajaxSetup({
     }
 })
 
-require('overlayscrollbars');
 require('bootstrap');
+require('overlayscrollbars');
 require('../../vendor/almasaeed2010/adminlte/dist/js/adminlte');
 
 const { default: Swal } = require('sweetalert2');
+import bsCustomFileInput from 'bs-custom-file-input'
+
+window.bsCustomFileInput = bsCustomFileInput;
 
 function checkAll() {
     $('table td input[type=checkbox]').prop('checked', true)
