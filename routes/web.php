@@ -24,7 +24,8 @@ Route::as('front.')->group(function () {
 });
 
 Route::middleware('auth')->prefix('admin')->name('admin.')->group(function () {
-    Route::view('', 'admin.dashboard')->name('dashboard');
+    // Route::view('', 'admin.dashboard')->name('dashboard');
+    Route::redirect('', '/admin/contacts')->name('dashboard');
     Route::controller(PasswordController::class)
         ->prefix('password')->as('password.')
         ->group(function () {

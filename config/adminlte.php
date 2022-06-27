@@ -241,12 +241,12 @@ return [
         //     'type' => 'sidebar-menu-search',
         //     'text' => 'search',
         // ],
-        [
-            'text' => 'Dashboard',
-            'url'  => 'admin',
-            'icon' => 'fa fa-fw fa-dashboard',
-            'can'  => '',
-        ],
+        // [
+        //     'text' => 'Dashboard',
+        //     'url'  => 'admin',
+        //     'icon' => 'fa fa-fw fa-dashboard',
+        //     'can'  => '',
+        // ],
         [
             'text'        => 'Contacts',
             'url'         => 'admin/contacts',

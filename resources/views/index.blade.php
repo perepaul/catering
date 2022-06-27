@@ -1,8 +1,5 @@
 <!doctype html>
-<html lang="zxx">
-
-
-<!-- Mirrored from nicurb.com/demos/templates/catering_elbasha/LTR/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Jun 2022 17:43:02 GMT -->
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -86,13 +83,6 @@
                                         <li><a class="nav-link" href="#reviews">Reviews</a> </li>
                                         <li><a class="nav-link" href="#catering_services">Services</a> </li>
                                         <li><a class="nav-link" href="#contact">Contact</a> </li>
-                                        <li class="dropdown nav-link" hidden>
-                                            <a class="nav-link" href="#">Menu</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="javascript:void(0)">Sub 1</a></li>
-                                                <li><a href="javascript:void(0)">Sub 2</a></li>
-                                            </ul>
-                                        </li>
                                     </ul>
                                 </nav>
                             </div>
@@ -110,25 +100,11 @@
                                     </div>
                                     <div class="ul_li">
                                         <a class="icon cart_wishlist bg-waze"
-                                            href="https://ul.waze.com/ul?ll=32.70815560%2C35.30405045&amp;navigate=yes&amp;zoom=13&amp;utm_campaign=waze_website&amp;utm_source=waze_website&amp;utm_medium=lm_share_location">
-                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-                                                id="Layer_1" x="0px" y="0px" width="20px"
-                                                height="20px" viewBox="0 0 200 200"
-                                                enable-background="new 0 0 200 200" xml:space="preserve">
-                                                <g>
-                                                    <path fill="#303030"
-                                                        d="M99.513,76.832c0,4.719-3.825,8.545-8.544,8.545c-4.718,0-8.544-3.826-8.544-8.545   c0-4.719,3.826-8.543,8.544-8.543C95.688,68.289,99.513,72.112,99.513,76.832" />
-                                                    <path fill="#303030"
-                                                        d="M139.43,76.832c0,4.719-3.826,8.545-8.545,8.545c-4.718,0-8.544-3.826-8.544-8.545   c0-4.719,3.826-8.543,8.544-8.543C135.604,68.289,139.43,72.112,139.43,76.832" />
-                                                    <path fill="#303030"
-                                                        d="M110.621,122.646c-14.477,0-27.519-9.492-29.911-21.917c-0.464-2.412,1.116-4.745,3.528-5.209   c2.413-0.465,4.745,1.116,5.209,3.528c1.406,7.304,10.152,14.996,21.81,14.691c12.144-0.318,20.165-7.58,21.813-14.588   c0.563-2.391,2.961-3.872,5.35-3.312c2.393,0.563,3.875,2.958,3.312,5.349c-1.346,5.721-5.03,11.021-10.375,14.926   c-5.567,4.07-12.438,6.324-19.866,6.52C111.201,122.643,110.91,122.646,110.621,122.646" />
-                                                    <path fill="#303030"
-                                                        d="M183.97,81.47c-1.644-9.71-5.5-18.811-11.464-27.051c-6.736-9.307-15.951-17.078-26.648-22.472   c-10.812-5.452-22.88-8.335-34.9-8.335c-3.391,0-6.809,0.23-10.16,0.682c-14.034,1.896-27.833,7.734-38.856,16.439   c-12.42,9.808-20.435,22.418-23.177,36.469C37.948,81.379,37.6,86,37.263,90.468c-0.528,6.994-1.074,14.226-3.298,18.952   c-1.52,3.23-3.788,5.381-9.919,5.381c-3.374,0-6.457,1.908-7.963,4.928c-1.505,3.02-1.173,6.631,0.857,9.324   c9.237,12.254,21.291,19.676,33.982,24.148c-0.578,1.746-0.903,3.605-0.903,5.545c0,9.744,7.899,17.643,17.643,17.643   c9.503,0,17.229-7.518,17.606-16.928c4.137,0.225,23.836,0.279,26.033,0.217c0.487,9.309,8.167,16.711,17.596,16.711   c9.743,0,17.642-7.898,17.642-17.643c0-2.221-0.428-4.338-1.176-6.295c6.918-3.365,13.448-7.906,19.146-13.375   c7.946-7.625,13.778-16.621,16.868-26.016C184.854,102.486,185.728,91.857,183.97,81.47 M67.662,164.568   c-3.215,0-5.822-2.605-5.822-5.822c0-3.215,2.607-5.822,5.822-5.822c3.216,0,5.822,2.607,5.822,5.822   C73.484,161.963,70.878,164.568,67.662,164.568 M128.897,164.568c-3.216,0-5.823-2.605-5.823-5.822   c0-3.215,2.607-5.822,5.823-5.822s5.822,2.607,5.822,5.822C134.72,161.963,132.113,164.568,128.897,164.568 M172.925,110.281   c-5.095,15.49-18.524,28.281-32.835,34.83c-3.047-2.504-6.943-4.006-11.192-4.006c-6.848,0-12.771,3.906-15.694,9.607   c-2.976,0.123-25.135,0.047-29.984-0.285c-2.972-5.547-8.822-9.322-15.557-9.322c-4.48,0-8.559,1.682-11.669,4.434   c-12.054-3.895-23.438-10.551-31.947-21.842c25.161,0,20.196-28.118,23.451-44.792c4.959-25.412,30.099-42.499,54.491-45.794   c3-0.405,6-0.602,8.969-0.602C151.047,32.51,186.732,68.302,172.925,110.281" />
-                                                </g>
-                                            </svg>
+                                            @isset($setting?->email) href="mailto:{{ $setting?->email }}" @endisset>
+                                            <i class="fa fa-envelope"></i>
                                         </a>
-                                        <a class="icon cart_wishlist" href="tel:123456789">
+                                        <a class="icon cart_wishlist"
+                                            @isset($setting->phone) href="tel:{{ $setting?->phone }}" @endisset>
                                             <i class="fa fa-phone"></i>
                                         </a>
                                     </div>
@@ -152,30 +128,12 @@
             <nav class="side-mobile-menu text-center">
                 <ul id="mobile-menu-active">
                     <div class="icon bar d-lg-none text-danger" style="font-size: 1.1rem;">
-                        <a href="tel:123456789">
-                            <span><i class="fa fa-phone"></i> 123456789</span>
+                        <a @isset($setting->phone) href="tel:{{ $setting?->phone }}" @endisset>
+                            <span><i class="fa fa-phone"></i></span>
                         </a>
                         <br>
-                        <a
-                            href="https://ul.waze.com/ul?ll=32.70815560%2C35.30405045&amp;navigate=yes&amp;zoom=13&amp;utm_campaign=waze_website&amp;utm_source=waze_website&amp;utm_medium=lm_share_location">
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    version="1.1" id="Layer_1" x="0px" y="0px" width="20px"
-                                    height="20px" viewBox="0 0 200 200" enable-background="new 0 0 200 200"
-                                    xml:space="preserve">
-                                    <g>
-                                        <path fill="#303030"
-                                            d="M99.513,76.832c0,4.719-3.825,8.545-8.544,8.545c-4.718,0-8.544-3.826-8.544-8.545   c0-4.719,3.826-8.543,8.544-8.543C95.688,68.289,99.513,72.112,99.513,76.832" />
-                                        <path fill="#303030"
-                                            d="M139.43,76.832c0,4.719-3.826,8.545-8.545,8.545c-4.718,0-8.544-3.826-8.544-8.545   c0-4.719,3.826-8.543,8.544-8.543C135.604,68.289,139.43,72.112,139.43,76.832" />
-                                        <path fill="#303030"
-                                            d="M110.621,122.646c-14.477,0-27.519-9.492-29.911-21.917c-0.464-2.412,1.116-4.745,3.528-5.209   c2.413-0.465,4.745,1.116,5.209,3.528c1.406,7.304,10.152,14.996,21.81,14.691c12.144-0.318,20.165-7.58,21.813-14.588   c0.563-2.391,2.961-3.872,5.35-3.312c2.393,0.563,3.875,2.958,3.312,5.349c-1.346,5.721-5.03,11.021-10.375,14.926   c-5.567,4.07-12.438,6.324-19.866,6.52C111.201,122.643,110.91,122.646,110.621,122.646" />
-                                        <path fill="#303030"
-                                            d="M183.97,81.47c-1.644-9.71-5.5-18.811-11.464-27.051c-6.736-9.307-15.951-17.078-26.648-22.472   c-10.812-5.452-22.88-8.335-34.9-8.335c-3.391,0-6.809,0.23-10.16,0.682c-14.034,1.896-27.833,7.734-38.856,16.439   c-12.42,9.808-20.435,22.418-23.177,36.469C37.948,81.379,37.6,86,37.263,90.468c-0.528,6.994-1.074,14.226-3.298,18.952   c-1.52,3.23-3.788,5.381-9.919,5.381c-3.374,0-6.457,1.908-7.963,4.928c-1.505,3.02-1.173,6.631,0.857,9.324   c9.237,12.254,21.291,19.676,33.982,24.148c-0.578,1.746-0.903,3.605-0.903,5.545c0,9.744,7.899,17.643,17.643,17.643   c9.503,0,17.229-7.518,17.606-16.928c4.137,0.225,23.836,0.279,26.033,0.217c0.487,9.309,8.167,16.711,17.596,16.711   c9.743,0,17.642-7.898,17.642-17.643c0-2.221-0.428-4.338-1.176-6.295c6.918-3.365,13.448-7.906,19.146-13.375   c7.946-7.625,13.778-16.621,16.868-26.016C184.854,102.486,185.728,91.857,183.97,81.47 M67.662,164.568   c-3.215,0-5.822-2.605-5.822-5.822c0-3.215,2.607-5.822,5.822-5.822c3.216,0,5.822,2.607,5.822,5.822   C73.484,161.963,70.878,164.568,67.662,164.568 M128.897,164.568c-3.216,0-5.823-2.605-5.823-5.822   c0-3.215,2.607-5.822,5.823-5.822s5.822,2.607,5.822,5.822C134.72,161.963,132.113,164.568,128.897,164.568 M172.925,110.281   c-5.095,15.49-18.524,28.281-32.835,34.83c-3.047-2.504-6.943-4.006-11.192-4.006c-6.848,0-12.771,3.906-15.694,9.607   c-2.976,0.123-25.135,0.047-29.984-0.285c-2.972-5.547-8.822-9.322-15.557-9.322c-4.48,0-8.559,1.682-11.669,4.434   c-12.054-3.895-23.438-10.551-31.947-21.842c25.161,0,20.196-28.118,23.451-44.792c4.959-25.412,30.099-42.499,54.491-45.794   c3-0.405,6-0.602,8.969-0.602C151.047,32.51,186.732,68.302,172.925,110.281" />
-                                    </g>
-                                </svg>
-                                Waze
-                            </span>
+                        <a @isset($setting?->email) href="mailto:{{ $setting?->email }}" @endisset>
+                            <i class="fa fa-envelope"></i>
                         </a>
                     </div>
                     <hr />
@@ -1071,7 +1029,11 @@
                                     </div>
                                     <div class="or_text">
                                         <h4><ins>Work Hours</ins></h4>
-                                        <span>Every day: 08:00 - 23:00</span>
+                                        @isset($setting?->open_hours)
+                                            @foreach (explode(',', $setting?->open_hours) as $hour)
+                                                <span>{{ $hour }}</span>
+                                            @endforeach
+                                        @endisset
                                     </div>
                                 </div>
                             </div>
@@ -1080,9 +1042,15 @@
                             <div class="footer_widget">
                                 <h3>Contact Us</h3>
                                 <ul class="c_wrap">
-                                    <li><span>Address</span>: Nazareth - Palestine</li>
-                                    <li><span>Email</span>: support@nicurb.com</li>
-                                    <li><span>Phone</span>: 123456789</li>
+                                    @isset($setting?->address)
+                                        <li><span>Address</span>: {{ $setting?->address }}</li>
+                                    @endisset
+                                    @isset($setting?->email)
+                                        <li><span>Email</span>: {{ $setting?->email }}</li>
+                                    @endisset
+                                    @isset($setting?->phone)
+                                        <li><span>Phone</span>: {{ $setting?->phone }}</li>
+                                    @endisset
                                 </ul>
                             </div>
                         </div>
@@ -1101,16 +1069,29 @@
                             <div class="col-lg-6 col-md-9">
                                 <div class="copyright text-md-center" dir="ltr">
                                     <p>
-                                        All Rights Reserved © Catering El-Basha 2021
+                                        All Rights Reserved © {{ config('app.name') }} {{ now()->format('Y') }}
                                         <br>
-                                        Design By <a href="https://nicurb.com/">NiCurb</a>
+                                        Developed By <a href="https://linkedin.com/in/emma-kodes">Perekpo Paulinus
+                                            Emmanuel</a>
                                     </p>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-12">
                                 <div class="social_links text-lg-end">
-                                    <a href="https://facebook.com/" target="_blank"><i
-                                            class="fa fa-facebook"></i></a>
+                                    @if ($setting?->facebook)
+                                        <a href="{{ $setting?->facebook }}" target="_blank"><i
+                                                class="fa fa-facebook"></i></a>
+                                    @endif
+
+                                    @if ($setting?->twitter)
+                                        <a href="{{ $setting?->twitter }}" target="_blank"><i
+                                                class="fa fa-twitter"></i></a>
+                                    @endif
+
+                                    @if ($setting?->instagram)
+                                        <a href="{{ $setting?->instagram }}" target="_blank"><i
+                                                class="fa fa-instagram"></i></a>
+                                    @endif
                                 </div>
                             </div>
                         </div>
@@ -1185,7 +1166,5 @@
     <!-- /GetButton.io widget -->
 </body>
 
-
-<!-- Mirrored from nicurb.com/demos/templates/catering_elbasha/LTR/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Jun 2022 17:44:30 GMT -->
 
 </html>
