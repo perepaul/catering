@@ -28,7 +28,7 @@ class PasswordController extends Controller
         }
 
         $user->update([
-            'password' => $request->input('password'),
+            'password' => Hash::make($request->input('password')),
         ]);
 
         return back()->withSuccess('Password updated');
