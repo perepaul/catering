@@ -1019,7 +1019,7 @@
                                     </div>
 
                                     <div class="r_field">
-                                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Description of the event..."></textarea>
+                                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
                                     </div>
                                     <div class="button text-center">
                                         <button class="thm_btn" type="submit" id="send_a_message">

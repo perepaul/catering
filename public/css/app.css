@@ -61784,4 +61784,20 @@ a.text-muted:hover {
 .dark-mode .border-dark {
   border-color: #4b545c !important;
 }
+table thead th {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 1em;
+}
 
+table tbody tr td {
+  font-size: 0.9em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.swal2-popup.swal2-toast .swal2-icon {
+  height: 1em !important;
+  min-width: 1em !important;
+  width: 1em !important;
+  border-width: 2px !important;
+}

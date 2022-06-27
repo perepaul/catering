@@ -1,11 +1,18 @@
 import _ from 'lodash';
 window._ = _;
 
-window.$ = window.jQuery = require('jquery');
+const $ = window.$ = window.jQuery = require('jquery');
+
+$.ajaxSetup({
+    headers: {
+        'X-CSRF-TOKEN': $('meta[name=csrf-token]').attr('content'),
+    }
+})
 
 require('overlayscrollbars');
 require('bootstrap');
 require('../../vendor/almasaeed2010/adminlte/dist/js/adminlte');
+
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests

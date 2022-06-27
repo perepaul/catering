@@ -30,5 +30,5 @@ Route::middleware('auth')->prefix('admin')->name('admin.')->group(function () {
     //         Route::get('', 'index')->name('index');
     //     Route::get('view/', 'index')->name('index');
     //     });
-    Route::resource('contacts', ContactController::class)->only(['index', 'show']);
+    Route::resource('contacts', ContactController::class)->only(['index', 'show', 'destroy']);
 });
