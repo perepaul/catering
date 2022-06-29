@@ -202,7 +202,7 @@
                                         </div>
                                         <div class="ul_li">
                                             <a
-                                             class="icon cart_wishlist bg-waze"
+                                             class="icon cart_wishlist"
                                              @isset($setting?->email) href="mailto:{{ $setting?->email }}" @endisset>
                                                 <i class="fa fa-envelope"></i>
                                             </a>

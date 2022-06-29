@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\ContactController;
+use App\Http\Controllers\Admin\GalleryController;
 use App\Http\Controllers\Admin\PasswordController;
 use App\Http\Controllers\Admin\SettingController;
 use App\Http\Controllers\ContactController as ControllersContactController;
@@ -44,4 +45,5 @@ Route::middleware('auth')->prefix('admin')->name('admin.')->group(function () {
         });
 
     Route::resource('contacts', ContactController::class)->only(['index', 'show', 'destroy']);
+    Route::resource('gallery', GalleryController::class)->only(['index', 'show', 'destroy']);
 });
