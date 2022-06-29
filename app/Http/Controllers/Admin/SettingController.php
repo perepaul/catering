@@ -21,11 +21,8 @@ class SettingController extends Controller
     {
         // dd('right here');
         $request->validate([
-            'favicon' => ['required', 'image', 'mimes:png,jpg,jpeg', 'dimensions:height=32,width:32'],
+            'favicon' => ['required', 'image', 'mimes:png,jpg,jpeg'],
             'logo' => ['required', 'image', 'mimes:png,jpg,jpeg',]
-        ], [
-            'favicon.dimension' => 'favicon must be exactly 32X32 image',
-            'logo.dimension' => 'logo must be exactly 32X32 image'
         ]);
 
         DB::beginTransaction();
@@ -78,7 +75,6 @@ class SettingController extends Controller
                 Setting::create($valid);
             }
             DB::commit();
-            dd('commited');
         } catch (\Throwable $th) {
             DB::rollBack();
             throw $th;
