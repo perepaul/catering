@@ -45,5 +45,5 @@ Route::middleware('auth')->prefix('admin')->name('admin.')->group(function () {
         });
 
     Route::resource('contacts', ContactController::class)->only(['index', 'show', 'destroy']);
-    Route::resource('gallery', GalleryController::class)->only(['index', 'show', 'destroy']);
+    Route::resource('galleries', GalleryController::class)->except(['show']);
 });
