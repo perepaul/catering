@@ -1373,6 +1373,7 @@
                                              placeholder="Message"
                                             ></textarea>
                                         </div>
+                                        <input type="text" style="width:0px; height:0px; display: none" name="details">
                                         <div class="button text-center">
                                             <button
                                              class="thm_btn"
@@ -1539,8 +1540,8 @@
         <script>
             function masonryClick() {
             $(document).ready(function() {
-                document.getElementById('meats_on_the_fire').click();
-                document.getElementById('tripadvisor').click();
+                // document.getElementById('meats_on_the_fire').click();
+                // document.getElementById('tripadvisor').click();
             });
         }
         </script>

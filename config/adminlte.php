@@ -255,7 +255,7 @@ return [
             // 'label_color' => 'success',
         ],
         [
-            'text'        => 'Images',
+            'text'        => 'Galleries',
             'url'         => 'admin/galleries',
             'icon'        => 'fas fa-fw fa-camera',
             'label_color' => 'success',

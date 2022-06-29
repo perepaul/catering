@@ -17,6 +17,9 @@ class ContactController extends Controller
             'phone' => ['required', 'string'],
             'message' => ['required'],
         ]);
+        if ($request->filled('details')) {
+            return abort(403);
+        }
         DB::beginTransaction();
         try {
             Contact::create($valid);
