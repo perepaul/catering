@@ -1164,8 +1164,8 @@
                 >
                     <div class="container">
                         <div class="sec_title sec_title-2">
-                            <span><ins>Services</ins></span>
-                            <h2><strong>Catering For Services</strong></h2>
+                            <span><ins>Pricing & Plans</ins></span>
+                            {{-- <h6><strong>Pri</strong></h6> --}}
                         </div>
                         <div class="row justify-content-md-center">
                             <div class="col-lg-3 col-md-6">
@@ -1173,21 +1173,17 @@
                                     <div class="services_thumb">
                                         <a href="javascript:void(0)">
                                             <img
-                                             src="assets/img/services/wedding.jpg"
+                                             src="assets/img/services/silver.png"
                                              alt=""
                                             >
                                         </a>
                                     </div>
                                     <div class="blog_content">
                                         <span class="tag"><a
-                                             href="javascript:void(0)">Service</a></span>
-                                        <h3 class="new"><a href="javascript:void(0)">enchanting
-                                                wedding</a></h3>
-                                        <p>Your wedding could be tastier than ever. A wedding of
-                                            dairy products, meat and
-                                            plants</p>
-                                        <ul class="blog_meta pt-10 ul_li">
-                                            <li class="cmt"><a href="#">Read More</a></li>
+                                             href="javascript:void(0)"><strong>Silver</strong></a></span>
+
+                                        <ul>
+                                            <li>100 - 3,000 Guests</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -1197,20 +1193,21 @@
                                     <div class="services_thumb">
                                         <a href="javascript:void(0)">
                                             <img
-                                             src="assets/img/services/private_events.jpg"
+                                             src="assets/img/services/gold.png"
                                              alt=""
                                             >
                                         </a>
                                     </div>
                                     <div class="blog_content">
-                                        <span class="tag"><a href="#">Service</a></span>
-                                        <h3><a href="javascript:void(0)">Private events</a></h3>
-                                        <p>On occasions small or big, enrich the experience with
-                                            great flavors and great
-                                            service</p>
-                                        <br>
-                                        <ul class="blog_meta pt-10 ul_li">
-                                            <li class="cmt"><a href="#">Read More</a></li>
+                                        <span class="tag">
+                                            <a href="#">
+                                                <strong>
+                                                    Gold
+                                                </strong>
+                                            </a>
+                                        </span>
+                                        <ul>
+                                            <li>100 - 3,000 Guests</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -1220,19 +1217,21 @@
                                     <div class="services_thumb">
                                         <a href="javascript:void(0)">
                                             <img
-                                             src="assets/img/services/business_events.jpg"
+                                             src="assets/img/services/premium.png"
                                              alt=""
                                             >
                                         </a>
                                     </div>
                                     <div class="blog_content">
-                                        <span class="tag"><a href="#">Service</a></span>
-                                        <h3><a href="javascript:void(0)">Business events</a></h3>
-                                        <p>From light refreshments to a full meal, we have the
-                                            attitude and tools to serve
-                                            you on a special tasting business event!</p>
-                                        <ul class="blog_meta pt-10 ul_li">
-                                            <li class="cmt"><a href="#">Read More</a></li>
+                                        <span class="tag">
+                                            <a href="#">
+                                                <strong>
+                                                    Premium
+                                                </strong>
+                                            </a>
+                                        </span>
+                                        <ul>
+                                            <li>100 - 3,000 Guests</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -1242,19 +1241,21 @@
                                     <div class="services_thumb">
                                         <a href="javascript:void(0)">
                                             <img
-                                             src="assets/img/services/trays.jpg"
+                                             src="assets/img/services/supreme.png"
                                              alt=""
                                             >
                                         </a>
                                     </div>
                                     <div class="blog_content">
-                                        <span class="tag"><a href="#">Service</a></span>
-                                        <h3><a href="javascript:void(0)">hospitality trays</a></h3>
-                                        <p>Beautiful hospitality trays for parties, hospitality and
-                                            business events, in a
-                                            rich variety</p>
-                                        <ul class="blog_meta pt-10 ul_li">
-                                            <li class="cmt"><a href="#">Read More</a></li>
+                                        <span class="tag">
+                                            <a href="#">
+                                                <strong>
+                                                    Supreme
+                                                </strong>
+                                            </a>
+                                        </span>
+                                        <ul>
+                                            <li>100 - 3,000 Guests</li>
                                         </ul>
                                     </div>
                                 </div>
