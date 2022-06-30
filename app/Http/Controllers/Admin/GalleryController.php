@@ -51,10 +51,10 @@ class GalleryController extends Controller
 
         DB::beginTransaction();
         try {
-            Gallery::create([
-                'active' => $request->input('status'),
-                'image' => $this->uploadFile('uploads/galleries', $request->file('image'))
-            ]);
+            if ($request->hasFile('image')) {
+                $valid['image'] = $this->uploadFile('uploads/galleries', $request->file('image'));
+            }
+            Gallery::create($valid);
             DB::commit();
         } catch (\Throwable $th) {
             DB::rollBack();
