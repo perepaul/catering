@@ -1374,9 +1374,8 @@
                                             {{ now()->format('Y') }}
                                             <br>
                                             Developed By <a
-                                             href="https://linkedin.com/in/emma-kodes"
-                                            >Perekpo Paulinus
-                                                Emmanuel</a>
+                                             href="https://horezone.com"
+                                            >Horezone.com</a>
                                         </p>
                                     </div>
                                 </div>
