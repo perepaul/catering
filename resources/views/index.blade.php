@@ -151,6 +151,10 @@
                                          src="{{ asset($setting?->logo ?? 'assets/img/logo/logo.png') }}"
                                          alt="logo"
                                         >
+                                        <img
+                                            src="{{asset($setting?->logo ?? 'assets/img/logo/logo.png')}}"
+                                            alt=""
+                                        />
                                     </a>
                                 </div>
                             </div>
@@ -168,16 +172,12 @@
                                                 >Gallery</a> </li>
                                             <li><a
                                                  class="nav-link"
-                                                 href="#meals"
-                                                >Meals</a> </li>
-                                            <li><a
-                                                 class="nav-link"
                                                  href="#reviews"
                                                 >Reviews</a> </li>
                                             <li><a
                                                  class="nav-link"
                                                  href="#catering_services"
-                                                >Services</a> </li>
+                                                >Pricing & Plans</a> </li>
                                             <li><a
                                                  class="nav-link"
                                                  href="#contact"
@@ -247,9 +247,8 @@
                         <hr />
                         <li><a href="#about">About</a></li>
                         <li><a href="#gallery">Gallery</a> </li>
-                        <li><a href="#meals">Meals</a> </li>
                         <li><a href="#reviews">Reviews</a> </li>
-                        <li><a href="#catering_services">Services</a> </li>
+                        <li><a href="#catering_services">Pricing & Plans</a> </li>
                         <li><a href="#contact">Contact</a> </li>
                         <li
                          class="dropdown nav-link"
@@ -324,7 +323,7 @@
                                                 </div>
                                                 <h4><ins>For any occasion and place</ins></h4>
                                                 <p>Catering <span
-                                                     style="color: #b12e26;">El-Basha</span> fulfill
+                                                     style="color: #b12e26;">DeGlobal</span> fulfill
                                                     your
                                                     dream</p>
                                             </div>
@@ -585,114 +584,18 @@
                      style="overflow: hidden; height: 190px;"
                     >
                         <div class="row">
+                            @foreach ($galleries as $gallery)
                             <div class="col-lg-3 col-md-4 col-xs-6 thumb pt-3 pl-3">
                                 <img
                                  class="test-popup-link"
-                                 href="assets/img/gallery/1.jpg"
-                                 src="assets/img/gallery/1.jpg"
+                                 href="{{asset($gallery->image)}}"
+                                 src="{{asset($gallery->image)}}"
                                  class="zoom img-fluid "
                                  alt=""
                                 >
                             </div>
-                            <div class="col-lg-3 col-md-4 col-xs-6 thumb pt-3 pl-3">
-                                <img
-                                 class="test-popup-link"
-                                 href="assets/img/gallery/2.jpg"
-                                 src="assets/img/gallery/2.jpg"
-                                 class="zoom img-fluid "
-                                 alt=""
-                                >
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-xs-6 thumb pt-3 pl-3">
-                                <img
-                                 class="test-popup-link"
-                                 href="assets/img/gallery/3.jpg"
-                                 src="assets/img/gallery/3.jpg"
-                                 class="zoom img-fluid "
-                                 alt=""
-                                >
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-xs-6 thumb pt-3 pl-3">
-                                <img
-                                 class="test-popup-link"
-                                 href="assets/img/gallery/4.jpg"
-                                 src="assets/img/gallery/4.jpg"
-                                 class="zoom img-fluid "
-                                 alt=""
-                                >
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-xs-6 thumb pt-3 pl-3">
-                                <img
-                                 class="test-popup-link"
-                                 href="assets/img/gallery/5.jpg"
-                                 src="assets/img/gallery/5.jpg"
-                                 class="zoom img-fluid "
-                                 alt=""
-                                >
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-xs-6 thumb pt-3 pl-3">
-                                <img
-                                 class="test-popup-link"
-                                 href="assets/img/gallery/6.jpg"
-                                 src="assets/img/gallery/6.jpg"
-                                 class="zoom img-fluid "
-                                 alt=""
-                                >
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-xs-6 thumb pt-3 pl-3">
-                                <img
-                                 class="test-popup-link"
-                                 href="assets/img/gallery/7.jpg"
-                                 src="assets/img/gallery/7.jpg"
-                                 class="zoom img-fluid "
-                                 alt=""
-                                >
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-xs-6 thumb pt-3 pl-3">
-                                <img
-                                 class="test-popup-link"
-                                 href="assets/img/gallery/8.jpg"
-                                 src="assets/img/gallery/8.jpg"
-                                 class="zoom img-fluid "
-                                 alt=""
-                                >
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-xs-6 thumb pt-3 pl-3">
-                                <img
-                                 class="test-popup-link"
-                                 href="assets/img/gallery/9.jpg"
-                                 src="assets/img/gallery/9.jpg"
-                                 class="zoom img-fluid "
-                                 alt=""
-                                >
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-xs-6 thumb pt-3 pl-3">
-                                <img
-                                 class="test-popup-link"
-                                 href="assets/img/gallery/10.jpg"
-                                 src="assets/img/gallery/10.jpg"
-                                 class="zoom img-fluid "
-                                 alt=""
-                                >
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-xs-6 thumb pt-3 pl-3">
-                                <img
-                                 class="test-popup-link"
-                                 href="assets/img/gallery/11.jpg"
-                                 src="assets/img/gallery/11.jpg"
-                                 class="zoom img-fluid "
-                                 alt=""
-                                >
-                            </div>
-                            <div class="col-lg-3 col-md-4 col-xs-6 thumb pt-3 pl-3">
-                                <img
-                                 class="test-popup-link"
-                                 href="assets/img/gallery/12.jpg"
-                                 src="assets/img/gallery/12.jpg"
-                                 class="zoom img-fluid "
-                                 alt=""
-                                >
-                            </div>
+                            @endforeach
+
 
                         </div>
                     </div>
@@ -1457,7 +1360,7 @@
                                             <img
                                              src="{{asset($setting?->logo ?? 'assets/img/logo/logo.png')}}"
                                              alt=""
-                                            >
+                                            />
                                         </a>
                                     </div>
                                 </div>
